@@ -27,6 +27,8 @@
 					  <groupId>com.puppycrawl.tools</groupId>
 					  <artifactId>checkstyle</artifactId>
 					  <version>6.14-SNAPSHOT</version>
+					  <scope>system</scope>
+					  <systemPath>${basedir}/libs/checkstyle-6.14-SNAPSHOT.jar</systemPath>
 					</dependency>
 					<dependency>
 						<groupId>com.github.sevntu.checkstyle</groupId>
